@@ -3,8 +3,6 @@
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Coverage percentage][coveralls-image]][coveralls-url]
-[![npm downloads per month](http://img.shields.io/npm/dm/spoken-numbers.svg)](https://www.npmjs.org/package/spoken-numbers)
-[![npm version](https://img.shields.io/npm/v/spoken-numbers.svg)](https://www.npmjs.org/package/spoken-numbers)
 - - -
 > Convert numbers to spoken word formats (e.g. 1375 becomes thirteen seventy five). Various formatting options are provided to support simple digits, c
 
