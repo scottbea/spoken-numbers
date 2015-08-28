@@ -1,28 +1,40 @@
 # spoken-numbers [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+- - -
 > Convert numbers to spoken word formats (e.g. 1375 becomes thirteen seventy five). Various formatting options are provided to support simple digits, c
 
 
-## Install
+## Install with npm
 
-```sh
+```bash
 $ npm install --save spoken-numbers
 ```
-
 
 ## Usage
 
 ```js
 var spokenNumbers = require('spoken-numbers');
 
-var words1 = spokenNumbers.toSpoken(1724, 'dd');	// seventeen twenty four
-var words2 = spokenNumbers.toSpoken(1701, 'dd:o');	// seventeen o one
-var words3 = spokenNumbers.toSpoken('AA1901', 'dd:o');  // A A nineteen o one
-var words4 = spokenNumbers.toSpoken('AA1901', 'd');     // A A one nine zero one
+var words1 = spokenNumbers.toSpoken(1724, 'dd'); // => 'seventeen twenty four'
+var words2 = spokenNumbers.toSpoken(1701, 'dd:o'); // => 'seventeen o one'
+var words3 = spokenNumbers.toSpoken('AA1901', 'dd:o'); // => 'A A nineteen o one'
+var words4 = spokenNumbers.toSpoken('AA1901', 'd'); // => 'A A one nine zero one'
 ```
 
-## License
+## Formats
+- `d` - Formats all numbers as individual digits. Example: `14,302,033` becomes `one four three zero two zero three three`
+- `dd` - Formats all numbers as individual digits. Example: `14,30,20,33` becomes `fourteen thirty twenty thirty three`
+- `w` - Formats all numbers in a verbose form, including named units. Example: `14,302,033` becomes `fourteen million three hundred and two thousand thirty three`
+- `d:o` - Formats all numbers as individual digits but replaces `zero` with `0`. Example: `14,302,033` becomes `one four three o two o three three`
 
+## Contributing
+Do your changes and submit a PR. If you've write access and want to bump the
+version, run `mversion [major|minor|patch] -m`. That'll bump both `bower.json`
+and `package.json`.
+
+## License
 MIT © [Scott Beaudreau]()
+This code is licensed under the MIT license for Scott Beaudreau. For more
+information, please refer to the [LICENSE](/LICENSE) file.
 
 
 [npm-image]: https://badge.fury.io/js/spoken-numbers.svg

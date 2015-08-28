@@ -1,12 +1,12 @@
 {
   "name": "spoken-numbers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Convert numbers to spoken word formats (e.g. 1375 becomes thirteen seventy five). Various formatting options are provided to support simple digits, double digits, leading zeros, alphanumeric values, and variations on the word for 'zero' such a 'O'",
   "homepage": "",
   "repository": "scottbea/spoken-numbers",
   "author": {
     "name": "Scott Beaudreau",
-    "email": "sjbeaudreau@gmail.com",
+    "email": "scottbeaudreau@hotmail.com",
     "url": ""
   },
   "files": [
