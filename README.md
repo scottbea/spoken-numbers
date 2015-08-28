@@ -31,5 +31,5 @@ MIT © [Scott Beaudreau]()
 [travis-url]: https://travis-ci.org/scottbea/spoken-numbers
 [daviddm-image]: https://david-dm.org/scottbea/spoken-numbers.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/scottbea/spoken-numbers
-[coveralls-image]: https://coveralls.io/repos/scottbea/spoken-numbers/badge.svg
-[coveralls-url]: https://coveralls.io/r/scottbea/spoken-numbers
+[coveralls-image]: https://coveralls.io/repos/scottbea/spoken-numbers/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/r/scottbea/spoken-numbers?branch=master
