@@ -14,7 +14,10 @@ $ npm install --save spoken-numbers
 ```js
 var spokenNumbers = require('spoken-numbers');
 
-spokenNumbers('Rainbow');
+var words1 = spokenNumbers.toSpoken(1724, 'dd');	// seventeen twenty four
+var words2 = spokenNumbers.toSpoken(1701, 'dd:o');	// seventeen o one
+var words3 = spokenNumbers.toSpoken('AA1901', 'dd:o');  // A A nineteen o one
+var words4 = spokenNumbers.toSpoken('AA1901', 'd');     // A A one nine zero one
 ```
 
 ## License
