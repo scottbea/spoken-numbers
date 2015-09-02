@@ -1,7 +1,5 @@
 # spoken-numbers
-[![Build Status][travis-image]][travis-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
-[![Coverage percentage][coveralls-image]][coveralls-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 - - -
 > Convert numbers to spoken word formats (e.g. 1375 becomes thirteen seventy five). Various formatting options are provided to support simple digits, c
 
@@ -28,11 +26,6 @@ var words4 = spokenNumbers.toSpoken('AA1901', 'd'); // => 'A A one nine zero one
 - `dd` - Formats all numbers as individual digits. Example: `14,30,20,33` becomes `fourteen thirty twenty thirty three`
 - `w` - Formats all numbers in a verbose form, including named units. Example: `14,302,033` becomes `fourteen million three hundred and two thousand thirty three`
 - `d:o` - Formats all numbers as individual digits but replaces `zero` with `0`. Example: `14,302,033` becomes `one four three o two o three three`
-
-## Contributing
-Do your changes and submit a PR. If you've write access and want to bump the
-version, run `mversion [major|minor|patch] -m`. That'll bump both `bower.json`
-and `package.json`.
 
 ## License
 This code is licensed under the MIT license for [Scott Beaudreau](). For more
