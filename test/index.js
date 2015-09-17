@@ -170,6 +170,11 @@ describe('spoken-numbers', function () {
           var t = 'A A one nine five';
           assert(s === t, 'Format error');
         });
+        it('should convert DFW', function () {
+          var s = spokenNumbers.toSpoken('DFW', 'dd');
+          var t = 'D F W';
+          assert(s === t, 'Format error');
+        });
         it('should convert FF0023', function () {
           var s = spokenNumbers.toSpoken('FF0023', 'd');
           var t = 'F F zero zero two three';
