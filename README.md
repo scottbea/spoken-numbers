@@ -17,8 +17,9 @@ var spokenNumbers = require('spoken-numbers');
 
 var words1 = spokenNumbers.toSpoken(1724, 'dd'); // => 'seventeen twenty four'
 var words2 = spokenNumbers.toSpoken(1701, 'dd:o'); // => 'seventeen o one'
-var words3 = spokenNumbers.toSpoken('AA1901', 'dd:o'); // => 'A A nineteen o one'
-var words4 = spokenNumbers.toSpoken('AA1901', 'd'); // => 'A A one nine zero one'
+var words3 = spokenNumbers.toSpoken(1000, 'dd:o'); // => 'ten zero zero'
+var words4 = spokenNumbers.toSpoken('AA1901', 'dd:o'); // => 'A A nineteen o one'
+var words5 = spokenNumbers.toSpoken('AA1901', 'd'); // => 'A A one nine zero one'
 ```
 
 ## Formats

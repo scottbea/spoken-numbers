@@ -102,6 +102,11 @@ describe('spoken-numbers', function () {
           var t = 'one hundred';
           assert(s === t, 'Format error');
         });
+        it('should convert 1000', function () {
+          var s = spokenNumbers.toSpoken('1000', 'dd:o');
+          var t = 'ten o o';
+          assert(s === t, 'Format error');
+        });
         it('should convert 20', function () {
           var s = spokenNumbers.toSpoken(20, 'w:o');
           var t = 'twenty';
